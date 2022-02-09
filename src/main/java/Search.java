@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Search {
 
-    public boolean linearSearch(ArrayList<Integer> array, int searchNumber) {
+    public Boolean linearSearch(ArrayList<Integer> array, int searchNumber) {
         for(int number : array)
         if(number == searchNumber){
             return true;
